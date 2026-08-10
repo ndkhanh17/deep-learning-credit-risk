@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data – Kaggle raw data (quá nặng ~3GB, tải từ Kaggle)
+home-credit-default-risk/
+
+# Data processed (generated at runtime)
+data/processed/*.npy
+data/processed/*.pkl
+data/processed/*.parquet
+
+# Logs
+scripts/bt1_log.txt
+scripts/bt2_log.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Temp files
+report_content.txt
+report_content2.txt
+
+# TensorFlow
+*.h5
+*.keras
+saved_model/
